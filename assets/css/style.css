@@ -225,5 +225,18 @@ input[type=submit] {
 }
 
 @media (max-width: 640px) {
+  #logo {text-align: center;
+  width: 100%;}
+  nav {
+    clear:both;
+  }
   
+  .main-section {
+    width: 100%;
+    max-width: 640px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
 }
